@@ -1,4 +1,5 @@
 Resets the password of Joomla Admin Account temporarily to 'secret'. You can press R at the end of the script to reset it back to the old password or CTRL+C to leave it as secret 
 
+Instructions: Place script in Joomla document root and run it
 
 Author: Jeremy J Butler
