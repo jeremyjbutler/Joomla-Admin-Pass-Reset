@@ -25,6 +25,6 @@ read exitorrest;
 
 if [ $exitorrest == "R" ] || [ $exitorrest == "r" ];
 then
-mysql -h"${getdbhost}" -u"${getbuser}" -p"${getdbpassword}" -D "$getthedb" -e "update "${getdbprefix}"users set password='$"{oldpass}"' where id='62';"
+mysql -h"${getdbhost}" -u"${getbuser}" -p"${getdbpassword}" -D "$getthedb" -e "update "${getdbprefix}"users set password='"${oldpass}"' where id='62';"
 fi
 
